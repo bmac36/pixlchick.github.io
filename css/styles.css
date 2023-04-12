@@ -1,0 +1,305 @@
+@charset "UTF-8";
+
+/* CSS Document */
+html,
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+/* page header graphics */
+#main {
+    background-image: url(../images/main2.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+}
+
+#aboutUs {
+    background-image: url(../images/about_us.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+}
+
+#whatWeDo {
+    background-image: url(../images/services.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+}
+
+#contactUs {
+    background-image: url(../images/contact_us.jpg);
+    background-size: cover;
+    background-position: center -3px;
+    min-height: 350px;
+}
+
+#videoGal {
+    background-image: url(../images/video.jpg);
+    background-size: cover;
+    background-position: center top;
+    min-height: 350px;
+}
+
+#thankYou {
+    background-image: url(../images/thank_you.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+}
+
+/* Typography styles */
+.jumbotron h1 {
+    color: #f1f1f1;
+}
+
+h1 {
+    color: #f1f1f1;
+    font-size: 5em;
+    font-weight: 300;
+    margin: 200px auto;
+}
+
+h2 {
+    color: #cf178a;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+h3 {
+    color: #282828;
+    font-size: 1.25em;
+    font-weight: 200;
+    line-height: 1.25em;
+}
+
+/* Navigation styles */
+nav {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    height: inherit !important;
+}
+
+.navbar {
+    padding-top: 20px;
+    font-size: 1em;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #a9cf37;
+    background-color: #F8F8F8;
+    border-top: 3px #cf178a solid;
+}
+
+.navbar-default .navbar-nav>.active>a:link {
+    color: #cf178a;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    border-top: 3px #a9cf37 solid;
+    color: #cf178c;
+}
+
+.navbar img {
+    margin-top: -20px;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #a9cf37;
+}
+
+.dropdown-menu li .active a:focus {
+    background-color: #cf178a;
+    color: #f1f1f1;
+}
+
+/* header, section and footer styles */
+.header {
+    display: block;
+    height: 400px;
+}
+
+header:after {
+    background-color: rgba(40, 40, 40, .9);
+}
+
+.learn_more {
+    margin-top: -150px;
+    ;
+    margin-left: 250px;
+}
+
+footer {
+    background-color: #282828;
+    height: 300px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+footer p,
+footer a:link {
+    color: #f1f1f1;
+    padding-top: 20px;
+    text-align: right;
+}
+
+footer a:link {
+    color: #cf178a;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+/* Form styles */
+form {
+    margin: 20px 0;
+}
+
+legend {
+    color: #a1a1a1;
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+label {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.required {
+    color: firebrick;
+    font-size: .8em;
+    vertical-align: top;
+}
+
+.btn-submit {
+    border-radius: 4px;
+    background-color: #a9cf37;
+    border: 1px #a9cf37 solid;
+    box-shadow: 0;
+    padding: 5px 10px;
+    float: right;
+    margin: 20px;
+}
+
+/* Glyphicon sizes */
+.gi-2x {
+    font-size: 2em;
+}
+
+.gi-3x {
+    font-size: 3em;
+}
+
+.gi-4x {
+    font-size: 4em;
+}
+
+.gi-5x {
+    font-size: 5em;
+}
+
+/* section backgrounds */
+.bg-info {
+    background-color: #e4e4e4;
+    padding: 40px 10px;
+    margin: 30px 0;
+}
+
+.bg-quote {
+    background-color: cornflowerblue;
+    color: #ffffff;
+}
+
+.bg-quote cite {
+    color: #ffffff;
+}
+
+.bg-quote h2 {
+    color: #f1f1f1;
+    text-transform: uppercase;
+}
+
+/* Who we are specific styles */
+.empl-title {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.empl-desc {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    color: #666666;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.empl-img {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+/* end of Who we are */
+
+/* accordion styles */
+.panel-default>.panel-heading {
+    background-color: #a9cf37;
+    border: #a9cf37 1px solid;
+}
+
+.panel-primary {
+    border-color: #a9cf37;
+}
+
+.panel-title {
+    color: #282828;
+    font-weight: 600;
+}
+
+.dot-brdr {
+    border: 2px dotted;
+    padding: 3px;
+}
+
+.well,
+.well-lg,
+.well-sm {
+    border: 1px #e1e1e1 solid;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px #e1e1e1;
+    margin-top: 15px;
+    min-height: 200px;
+}
+
+.top-space {
+    padding-top: 50px;
+}
+
+.copyright {
+    padding-top: 100px;
+}
